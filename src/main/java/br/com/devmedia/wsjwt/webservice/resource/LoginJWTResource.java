@@ -4,6 +4,7 @@ import javax.ws.rs.Path;
 import br.com.devmedia.wsjwt.domain.Usuario;
 import br.com.devmedia.wsjwt.service.UsuarioService;
 import br.com.devmedia.wsjwt.webservice.exception.UnauthenticatedException;
+import br.com.devmedia.wsjwt.webservice.jwt.TokenJWTUtil;
 
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
