@@ -13,7 +13,7 @@ public class Main {
 
         EntityManager em = JPAUtil.getEntityManager();
         em.getTransaction().begin();
-        dao.salvarUsuario(new Usuario("Eduardo", "eduardo", "123456"));
+        dao.salvarUsuario(new Usuario("Lídia", "lidia", "123456"));
         em.getTransaction().commit();
         em.close();
     }
