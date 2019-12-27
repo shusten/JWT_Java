@@ -40,7 +40,7 @@ public class LoginJWTResource {
 
         return Response.ok().header("Authorization", "Bearer " + token).build();
     }
-
+//================================================================================================
 
     private Usuario validarCredenciais(String login, String password) {
         UsuarioService usuarioService = new UsuarioService();
